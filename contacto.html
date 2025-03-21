@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!--Estilos--> 
+
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/scroll.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!--Script JS-->
+    <script src="assets/js/menu.js" defer></script>
+    
+    <title>Contacto - Ignacio Ruiz</title>
+    
+
+</head>
+<body>
+   <!--Layout principal-->
+   <div class="layout">
+
+        <!-- barra lateral: info del usuario -->
+        <aside class="layout__aside">
+            <section class="aside__user-info">
+                
+                <!--Info general usuario -->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img src="assets/img/nachoport.jpg" class="user-info__image" alt="Foto de perfil del usuario">
+                    </div>
+
+                    <h2 class="user-info__name">Ignacio Novas Ruiz</h2>
+                    <h7 class="job">Esudiante de Analista de Sistemas en ORT</h7>
+                </div>
+
+                <!--menu de navegacion-->
+                <nav class="layout__menu">
+                    
+                    <ul class="menu__list">
+                        
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="sobre-mi.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">Sobre mi</span>
+                            </a>
+                        </li>
+                        
+                        <li class="menu__option">
+                            <a href="formacion.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Formación</span>
+                            </a>
+                        </li>
+                        
+                        <li class="menu__option">
+                            <a href="habilidades.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Habilidades</span>
+                            </a>
+                        </li>
+ 
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contacto</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <!-- links o redes sociales-->
+                <div class="user-info__links">
+                    <ul class="links__social">
+
+                        <li class="social__option">
+                            <a target="_blank" href="https://www.youtube.com/channel/UCL0JI-4Bls24tWGnDybiv_g" class="social__link">
+                                <i class="social__icon fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a target="_blank" href="https://www.linkedin.com/in/ignacio-novas-ruiz-6259b025b" class="social__link">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a target="_blank" href="https://www.instagram.com/nacho.ruiz12/" class="social__link">
+                                <i class="social__icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+                
+
+                <!--Boton del curriculum-->
+
+                <div class="user-info__buttons">
+                    <a href="#" class="user-info__btn" onclick="copiarLink(event)">Copiar link CV</a>
+                </div>
+
+                <!--pie de pagina-->
+                <footer class="user-info__footer">
+                    &copy; 2025 Ignacio Novas Ruiz WEB
+                </footer>
+            </section>
+
+        </aside>
+
+        <!--Menu responsive-->
+        <div class="layout__menu-toggle">
+            <i class="menu__toggle-icon fa-solid fa-bars"></i>
+            <i class="menu__toggle-icon fa-solid fa-xmark"></i>
+        </div>
+
+        <!--Contenido principal-->
+        <main class="layout__content">
+
+            <section class="content__page content__contact">
+                <!--ESTE CONTENIDO CAMBIA EN CADA PAGINA-->
+
+                <header class="contact__header">
+                    <h1 class="contact__title">Contacto</h1>
+                </header>
+
+                <div class="contact__container">
+
+                    <section class="contact__info">
+
+                        <div class="contact__data">
+                            <i class="contact__icon fa fa-solid fa-location-dot"></i>
+                            <h2 class="contact__subtitle">Buenos Aires</h2>
+                        </div>
+
+                        <div class="contact__data">
+                            <i class="contact__icon fa fa-solid fa-phone"></i>
+                            <h2 class="contact__subtitle">+5491155693722</h2>
+                        </div>
+
+                        <div class="contact__data">
+                            <i class="contact__icon fa fa-solid fa-envelope"></i>
+                            <h2 class="contact__subtitle">nachonovasruiz12@gmail.com</h2>
+                        </div>
+
+                        <div class="contact__data">
+                            <i class="contact__icon fa fa-solid fa-circle-check"></i>
+                            <h2 class="contact__subtitle">Desarrollador Web</h2>
+                        </div>
+                    
+                    </section>
+
+                    <section class="contact__form-box">
+
+                        <div class="contact__map">
+                            <iframe class="contact__iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52541.9871778105!2d-58.42512552778336!3d-34.60734250342068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca688994eb61%3A0xd055df0a7dafa86e!2sParque%20Centenario!5e0!3m2!1ses-419!2sar!4v1715897612546!5m2!1ses-419!2sar"></iframe>
+                        </div>
+
+                        <header class="contact__form-header">
+
+                            <h3 class="form-header__title">Contactame <span class="title__color">acá</span></h3>
+
+                        </header>
+
+                        <form class="contact__form" action="https://formspree.io/f/mrbppevw" method="POST">
+                            <div class="form__container">
+                                <section class="form__left">
+                                    <div class="form__group">
+                                        <input type="text" class="form__input" name="name" required placeholder="Nombre">
+                                        <label for="name" class="form__label">Nombre</label>
+                                    </div>
+                                    <div class="form__group">
+                                        <input type="email" class="form__input" name="email" required placeholder="Email">
+                                        <label for="email" class="form__label">Email</label>
+                                    </div>
+                                    <div class="form__group">
+                                        <input type="text" class="form__input" name="subject" required placeholder="Asunto">
+                                        <label for="subject" class="form__label">Asunto</label>
+                                    </div>
+                                </section>
+                        
+                                <section class="form__right">
+                                    <div class="form__group form__group--textarea">
+                                        <textarea class="form__input form__input--textarea" name="message" required placeholder="Mensaje"></textarea>
+                                        <label for="message" class="form__label">Mensaje</label>
+                                    </div>
+                                </section>
+                            </div>
+                        
+                            <input type="submit" class="form__button" value="Enviar mensaje">
+                        </form>
+
+
+
+                    </section>
+
+
+                </div>
+
+            </section>
+        </main>
+
+
+   </div>
+</body>
+</html>

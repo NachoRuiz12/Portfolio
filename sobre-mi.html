@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!--Estilos--> 
+
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/scroll.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!--Script JS-->
+    <script src="assets/js/menu.js" defer></script>
+    
+    <title>Sobre mi - Ignacio Ruiz</title>
+    
+
+</head>
+<body>
+   <!--Layout principal-->
+   <div class="layout">
+
+        <!-- barra lateral: info del usuario -->
+        <aside class="layout__aside">
+            <section class="aside__user-info">
+                
+                <!--Info general usuario -->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img src="assets/img/nachoport.jpg" class="user-info__image" alt="Foto de perfil del usuario">
+                    </div>
+
+                    <h2 class="user-info__name">Ignacio Novas Ruiz</h2>
+                    <h7 class="job">Esudiante de Analista de Sistemas en ORT</h7>
+                </div>
+
+                <!--menu de navegacion-->
+                <nav class="layout__menu">
+                    
+                    <ul class="menu__list">
+                        
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="sobre-mi.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">Sobre mi</span>
+                            </a>
+                        </li>
+                        
+                        <li class="menu__option">
+                            <a href="formacion.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Formación</span>
+                            </a>
+                        </li>
+                        
+                        <li class="menu__option">
+                            <a href="habilidades.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Habilidades</span>
+                            </a>
+                        </li>
+ 
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contacto</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <!-- links o redes sociales-->
+                <div class="user-info__links">
+                    <ul class="links__social">
+
+                        <li class="social__option">
+                            <a target="_blank" href="https://www.youtube.com/channel/UCL0JI-4Bls24tWGnDybiv_g" class="social__link">
+                                <i class="social__icon fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a target="_blank" href="https://www.linkedin.com/in/ignacio-novas-ruiz-6259b025b" class="social__link">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a target="_blank" href="https://www.instagram.com/nacho.ruiz12/" class="social__link">
+                                <i class="social__icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+                
+
+                <!--Boton del curriculum-->
+
+                <div class="user-info__buttons">
+                    <a href="#" class="user-info__btn" onclick="copiarLink(event)">Copiar link CV</a>
+                </div>
+
+                <!--pie de pagina-->
+                <footer class="user-info__footer">
+                    &copy; 2025 Ignacio Novas Ruiz WEB
+                </footer>
+            </section>
+
+        </aside>
+
+        <!--Menu responsive-->
+        <div class="layout__menu-toggle">
+            <i class="menu__toggle-icon fa-solid fa-bars"></i>
+            <i class="menu__toggle-icon fa-solid fa-xmark"></i>
+        </div>
+
+        <!--Contenido principal-->
+        <main class="layout__content">
+            <section class="content__page content__about">
+                <!--ESTE CONTENIDO CAMBIA EN CADA PAGINA-->
+                <header class="about__header">
+                    <h1 class="about__title">Sobre <span class="title__color">Mi</span></h1>
+                </header>
+
+                <section class="about__personal-info">
+
+                    <article class="personal-info__bio">
+                        
+                        <p class="personal-info__description">
+                            
+                            Mi formación en Sistemas inició con cursos de HTML, CSS, Javascript y React en plataformas de estudio como Udemy. 
+                            Luego, hice otros cursos relacionados a la tecnología en Santander Rio, y en la actualidad estoy cursando la Tecnicatura de Analista de Sistemas en ORT Argentina. Como graduado podré desempeñarme en diferentes roles tales como: Desarrollador, Tester, Analista Funcional, Arquitecto de Software, Líder de Proyecto, Administrador de Base de Datos, Administrador de Redes, Asesor en tecnología, Encargado de Seguridad Informática, Asegurador de Calidad (QA), Auditor de Sistemas, Consultor en Informática, entre muchos otros.
+                        </p>
+
+                    </article>
+
+                    <div class="personal-info__data">
+                            <ul class="personal-info__list">
+                                <li class="personal-info__option">
+                                    <span class="personal-info__title">Edad</span>
+                                    <span class="personal-info__value">26</span>
+                                </li>
+
+                                <li class="personal-info__option">
+                                    <span class="personal-info__title">Pais</span>
+                                    <span class="personal-info__value">Argentina</span>
+                                </li>
+
+                                <li class="personal-info__option">
+                                    <span class="personal-info__title">Zona</span>
+                                    <span class="personal-info__value">Caballito, CABA</span>
+                                </li>
+
+                                <li class="personal-info__option">
+                                    <span class="personal-info__title">Correo</span>
+                                    <span class="personal-info__value">nachonovasruiz12@gmail.com</span>
+                                </li>
+
+                                <li class="personal-info__option">
+                                    <span class="personal-info__title">Telefono</span>
+                                    <span class="personal-info__value">+5491155693722</span>
+                                </li>
+                            </ul>
+                    </div>
+
+                
+
+                </section>
+
+                <section class="about__services">
+                    
+                    <header class="services__header">
+                        <h2 class="services__title">
+                            Lo que <span class="title__color">hago</span>
+                        </h2>
+                    </header>
+                    
+                    <div class="services__container">
+
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="services__real-icon fa-solid fa-code"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h3 class="service__title">Desarrollo en Java</h3>
+                                <p class="service__description">Actualmente, estoy aprendiendo Java con Eclipse en el Taller de Herramientas de Programación, desarrollando programas básicos y comprendiendo la lógica de la programación orientada a objetos.</p>
+                            </div>
+                        </article>
+
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="services__real-icon fa-solid fa-chalkboard-teacher"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h3 class="service__title">Lógica y Fundamentos de Programación</h3>
+                                <p class="service__description">Me estoy formando en estructuras de control, algoritmos y resolución de problemas computacionales, fortaleciendo mis bases para el desarrollo de software.</p>
+                            </div>
+                        </article>
+
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="services__real-icon fa-solid fa-computer"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h3 class="service__title">Informática y Tecnología</h3>
+                                <p class="service__description">Profundizando en conceptos de hardware, software y redes, comprendiendo la base tecnológica que sustenta los sistemas de información.</p>
+                            </div>
+                        </article>
+
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="services__real-icon fa-solid fa-terminal"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h3 class="service__title">Organización Empresarial</h3>
+                                <p class="service__description">Adquiriendo conocimientos sobre el funcionamiento de las empresas, gestión de procesos y estructura organizacional, clave para aplicar la tecnología en el ámbito empresarial.</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </section>
+
+                <section class="about__clients">
+
+                    <header class="clients__header">
+                        <h2 class="clients__title">Instituciones</h2>
+                    </header>
+
+                    <div class="clients__container">
+
+                        <article class="clients__item">
+                            <a href="#" class="clients__link">
+                                <img src="assets/img/cliente-1.png" class="clients__image"  alt="logo cliente">
+                            </a>
+                        </article>
+
+                        <article class="clients__item">
+                            <a href="#" class="clients__link">
+                                <img src="assets/img/cliente-2.png" class="clients__image"  alt="logo cliente">
+                            </a>
+                        </article>
+
+                        <article class="clients__item">
+                            <a href="#" class="clients__link">
+                                <img src="assets/img/cliente-3.png" class="clients__image"  alt="logo cliente">
+                            </a>
+                        </article>
+
+                        <article class="clients__item">
+                            <a href="#" class="clients__link">
+                                <img src="assets/img/ort.png" class="clients__image"  alt="logo cliente">
+                            </a>
+                        </article>
+
+                    </div>
+                
+                </section>
+
+            </section>
+        </main>
+
+
+   </div>
+</body>
+</html>

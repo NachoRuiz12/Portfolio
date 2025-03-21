@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!--Estilos--> 
+
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/scroll.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!--Script JS-->
+    <script src="assets/js/menu.js" defer></script>
+    
+    <title>Home - Ignacio Novas Ruiz</title>
+    
+
+</head>
+<body>
+   <!--Layout principal-->
+   <div class="layout">
+
+        <!-- barra lateral: info del usuario -->
+
+        <aside class="layout__aside">
+            <section class="aside__user-info">
+                
+                <!--Info general usuario -->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img src="assets/img/nachoport.jpg" class="user-info__image" alt="Foto de perfil del usuario">
+                    </div>
+
+                    <h2 class="user-info__name">Ignacio Novas Ruiz</h2>
+                    <h7 class="job">Esudiante de Analista de Sistemas en ORT</h7>
+                </div>
+
+                <!--menu de navegacion-->
+                <nav class="layout__menu">
+                    
+                    <ul class="menu__list">
+                        
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="sobre-mi.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">Sobre mi</span>
+                            </a>
+                        </li>
+                        
+                        <li class="menu__option">
+                            <a href="formacion.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Formación</span>
+                            </a>
+                        </li>
+                        
+                        <li class="menu__option">
+                            <a href="habilidades.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Habilidades</span>
+                            </a>
+                        </li>
+ 
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contacto</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <!-- links o redes sociales-->
+                <div class="user-info__links">
+                    <ul class="links__social">
+
+                        <li class="social__option">
+                            <a target="_blank" href="https://www.youtube.com/channel/UCL0JI-4Bls24tWGnDybiv_g" class="social__link">
+                                <i class="social__icon fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a target="_blank" href="https://www.linkedin.com/in/ignacio-novas-ruiz-6259b025b" class="social__link">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a target="_blank" href="https://www.instagram.com/nacho.ruiz12/" class="social__link">
+                                <i class="social__icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+
+                <!--Boton del curriculum-->
+
+                <div class="user-info__buttons">
+                    <a href="#" class="user-info__btn" onclick="copiarLink(event)">Copiar link CV</a>
+                </div>
+
+                <!--pie de pagina-->
+                <footer class="user-info__footer">
+                    &copy; 2025 Ignacio Novas Ruiz WEB
+                </footer>
+            </section>
+
+        </aside>
+
+        <!--Menu responsive-->
+        <div class="layout__menu-toggle">
+            <i class="menu__toggle-icon fa-solid fa-bars"></i>
+            <i class="menu__toggle-icon fa-solid fa-xmark"></i>
+        </div>
+
+        <!--Contenido principal-->
+        <main class="layout__content">
+            <section class="content__page">
+                <h1 class="page__name">Ignacio Novas Ruiz</h1>
+                <h2 class="page__job">Soy estudiante de Analista de Sistemas en ORT, donde me formo en desarrollo de software, programación, bases de datos y gestión de sistemas.</h2>
+            </section>
+        </main>
+
+
+   </div>
+</body>
+</html>

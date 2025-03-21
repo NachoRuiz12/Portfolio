@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!--Estilos--> 
+
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/scroll.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!--Script JS-->
+    <script src="assets/js/menu.js" defer></script>
+    
+    <title>Curriculum - Ignacio Ruiz</title>
+    
+
+</head>
+<body>
+   <!--Layout principal-->
+   <div class="layout">
+
+        <!-- barra lateral: info del usuario -->
+        <aside class="layout__aside">
+            <section class="aside__user-info">
+                
+                <!--Info general usuario -->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img src="assets/img/nachoport.jpg" class="user-info__image" alt="Foto de perfil del usuario">
+                    </div>
+
+                    <h2 class="user-info__name">Ignacio Novas Ruiz</h2>
+                    <h7 class="job">Esudiante de Analista de Sistemas en ORT</h7>
+                </div>
+
+                <!--menu de navegacion-->
+                <nav class="layout__menu">
+                    
+                    <ul class="menu__list">
+                        
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="sobre-mi.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">Sobre mi</span>
+                            </a>
+                        </li>
+                        
+                        <li class="menu__option">
+                            <a href="formacion.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Formación</span>
+                            </a>
+                        </li>
+                        
+                        <li class="menu__option">
+                            <a href="habilidades.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Habilidades</span>
+                            </a>
+                        </li>
+ 
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contacto</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <!-- links o redes sociales-->
+                <div class="user-info__links">
+                    <ul class="links__social">
+
+                        <li class="social__option">
+                            <a target="_blank" href="https://www.youtube.com/channel/UCL0JI-4Bls24tWGnDybiv_g" class="social__link">
+                                <i class="social__icon fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a target="_blank" href="https://www.linkedin.com/in/ignacio-novas-ruiz-6259b025b" class="social__link">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a target="_blank" href="https://www.instagram.com/nacho.ruiz12/" class="social__link">
+                                <i class="social__icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+                
+
+                <!--Boton del curriculum-->
+
+                <div class="user-info__buttons">
+                    <a href="#" class="user-info__btn" onclick="copiarLink(event)">Copiar link CV</a>
+                </div>
+
+                <!--pie de pagina-->
+                <footer class="user-info__footer">
+                    &copy; 2025 Ignacio Novas Ruiz WEB
+                </footer>
+            </section>
+
+        </aside>
+
+        <!--Menu responsive-->
+        <div class="layout__menu-toggle">
+            <i class="menu__toggle-icon fa-solid fa-bars"></i>
+            <i class="menu__toggle-icon fa-solid fa-xmark"></i>
+        </div>
+
+        <!--Contenido principal-->
+        <main class="layout__content">
+
+            <section class="content__page content__resume">
+                <!--ESTE CONTENIDO CAMBIA EN CADA PAGINA-->
+
+                <header class="resume__header">
+                    <h1 class="resume__title">Formación</h1>
+                </header>
+
+                <div class="resume__container">
+
+                    <section class="resume__left">
+
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Carreras</h2>
+                        </header>
+
+                        <div class="resume__timelines">
+
+                            <article class="timelines__timeline">
+
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2018</h4>
+                                    <span class="timeline__company">Universidad de Buenos Aires</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Diseño Industrial</h3>
+                                    <p class="timeline__text">
+                                        Al finalizar la secundaria opté por estudiar una carrera donde el dibujo, el diseño y la creatividad eran la base. Estudie hasta el 2023 donde cambie de rumbo hacia algo ligado a la gestión.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="timelines__timeline">
+
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2023</h4>
+                                    <span class="timeline__company">Universidad Nacional de San Martin</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Gestión Deportiva</h3>
+                                    <p class="timeline__text">
+                                        Completé con éxito la diplomatura, en la cual adquirí conocimientos valiosos, como también mejore mis habilidades de liderazgo y gestión de recursos.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="timelines__timeline">
+
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2024</h4>
+                                    <span class="timeline__company">Udemy/<br>Santander Rio/<br>MaxiPrograma</span> 
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Desarrollo Web</h3>
+                                    <p class="timeline__text">
+                                        Dedique mi tiempo a cursos y másteres para dominar diferentes lenguajes y herramientas de diseño.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="timelines__timeline">
+
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2025</h4>
+                                    <span class="timeline__company">ORT Argentina</span> 
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Analista de Sistemas</h3>
+                                    <p class="timeline__text">
+                                        Estoy en proceso de formación, como graduado podré desempeñarme en diferentes roles tales como: Desarrollador, Tester, Analista Funcional, Arquitecto de Software, Líder de Proyecto, Administrador de Base de Datos, Administrador de Redes, Asesor en tecnología, Encargado de Seguridad Informática, Asegurador de Calidad (QA), Auditor de Sistemas, Consultor en Informática, entre muchos otros.
+                                    </p>
+                                </div>
+                            </article>
+
+                    </section>
+
+                    <section class="resume__right">
+
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Habilidades en <span class="subtitle__color">Proceso</span></h2>
+                        </header>
+
+                        <div class="resume__skills">
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">-Diseño Web</h4>
+                                
+                            </article>
+                            <br>
+                            <article class="skills__title">
+                                <h4 class="skills__text">-Java (básico, en formación)</h4>
+                            </article>
+                            <br>
+                            <article class="skills__title">
+                                <h4 class="skills__text">-Eclipse IDE</h4>
+                            </article>
+                            <br>
+                            <article class="skills__title">
+                                <h4 class="skills__text">-Desarrollo de Software</h4>
+                            </article>
+                            <br>
+                            <article class="skills__title">
+                                <h4 class="skills__text">-Seguridad e Integridad de Sistemas</h4>
+                            </article>
+                            <br>
+                            <article class="skills__title">
+                                <h4 class="skills__text">-Arquitectura y Sistemas Operativos</h4>
+                            </article>
+                            <br>
+                            <article class="skills__title">
+                                <h4 class="skills__text">-Desarrollo de Software</h4>
+                            </article>
+                            <br>
+                            <article class="skills__title">
+                                <h4 class="skills__text">-Gestión de sistemas</h4>
+                            </article>
+                            <br>
+                            <article class="skills__title">
+                                <h4 class="skills__text">-Bases de datos</h4>
+                            </article>
+                            <br>
+                            <article class="skills__title">
+                                <h4 class="skills__text">-Informática general</h4>
+                            </article>
+                            <br>
+                            <article class="skills__title">
+                                <h4 class="skills__text">-Fundamentos de programación</h4>
+                            </article>
+                            <br>
+                            <article class="skills__title">
+                                <h4 class="skills__text">-Lógica de programación</h4>
+                            </article>
+                            <br>
+                            <article class="skills__title">
+                                <h4 class="skills__text">-IA</h4>
+                            </article>
+                        </div>
+
+                    </section>
+
+
+                </div>
+
+                <div class="resume__certificates">
+                    <header class="resume__subheader">
+                        <h2 class="resume__subtitle">Certificados</h2>
+                    </header>
+
+                    <section class="certificates__container">
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/cur3.jpg" class="certificate__image">
+                            </div>
+                        </article>
+
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/cur4.jpg" class="certificate__image">
+                            </div>
+                        </article>
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/cur5.jpg" class="certificate__image">
+                            </div>
+                        </article>
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/cur1.jpg" class="certificate__image">
+                            </div>
+                        </article>
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/cur2.jpg" class="certificate__image">
+                            </div>
+                        </article>
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/cur12.jpg" class="certificate__image">
+                            </div>
+                        </article>
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/cur8.jpg" class="certificate__image">
+                            </div>
+                        </article>
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/cur9.jpg" class="certificate__image">
+                            </div>
+                        </article>
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/cur10.jpg" class="certificate__image">
+                            </div>
+                        </article>
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/cur11.jpg" class="certificate__image">
+                            </div>
+                        </article>
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/cur7.jpg" class="certificate__image">
+                            </div>
+                        </article>
+
+                    </section>
+                </div>
+
+            </section>
+        </main>
+
+
+   </div>
+</body>
+</html>
