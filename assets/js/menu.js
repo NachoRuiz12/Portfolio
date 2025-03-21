@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 function copiarLink(event) {
     event.preventDefault(); // Evita que el enlace recargue la página
     
-    const enlaceCV = "https://ejemplo.com/mi-cv.pdf"; // Reemplaza con el enlace real de tu CV
+    const enlaceCV = "https://nachoruiz12.github.io/Portfolio/index.html"; // Reemplaza con el enlace real de tu CV
     navigator.clipboard.writeText(enlaceCV)
         .then(() => alert("¡Enlace del CV copiado al portapapeles!"))
         .catch(err => console.error("Error al copiar: ", err));
